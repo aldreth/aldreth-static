@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.0",
+    "husky": "^1.0.0-rc.13",
+    "parcel": "^1.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build && git add dist"
+    }
+  },
+  "name": "aldreth-static",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.1.5"
+  }
+}
