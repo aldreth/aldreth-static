@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+http://musing-panini-0bf2b8.netlify.com/* http://aldreth.com/:splat 301!
+
+# Redirect all other pages with a 301
+/*         /              301
