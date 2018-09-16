@@ -9,7 +9,7 @@
   "name": "aldreth-static",
   "scripts": {
     "precommit": "yarn prettier",
-    "build": "rm -rf .cache dist && parcel build index.html && cp _redirects dist/",
+    "build": "rm -rf .cache dist && parcel build index.html",
     "prettier": "prettier --write '+(css|js)/**/*.+(css|js)'",
     "start": "parcel index.html"
   },
