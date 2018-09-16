@@ -9,7 +9,7 @@ ID = "aldreth"
   command = "yarn build"
 
 [[redirects]]
-  from = "https://aldreth.netlify.com/* "
+  from = "https://aldreth.netlify.com/*"
   to = "https://aldreth.com/"
   status = 301
   force = false
