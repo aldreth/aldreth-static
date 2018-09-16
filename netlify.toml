@@ -12,8 +12,10 @@ ID = "aldreth"
   from = "https://aldreth.netlify.com/*"
   to = "https://aldreth.com/"
   status = 301
-  force = false
+  force = true
 
 [[redirects]]
   from = "/*"
   to = "/"
+  status = 301
+  force = true
