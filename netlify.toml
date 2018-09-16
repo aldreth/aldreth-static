@@ -7,3 +7,13 @@ ID = "aldreth"
   base    = ""
   publish = "dist"
   command = "yarn build"
+
+[[redirects]]
+  from = "https://aldreth.netlify.com/* "
+  to = "https://aldreth.com/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/*"
+  to = "/"
