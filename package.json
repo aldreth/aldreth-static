@@ -4,7 +4,6 @@
     "cssnano": "^4.1",
     "husky": "^1.1",
     "parcel-bundler": "^1.10",
-    "parcel-plugin-workbox2": "0.0.5",
     "prettier": "^1.14"
   },
   "name": "aldreth-static",
