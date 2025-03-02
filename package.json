@@ -1,21 +1,15 @@
 {
   "devDependencies": {
-    "autoprefixer": "^9.1",
-    "cssnano": "^4.1",
-    "husky": "^1.1",
-    "parcel-bundler": "^1.10",
-    "prettier": "^1.14"
+    "@parcel/packager-raw-url": "^2.13.3",
+    "@parcel/transformer-webmanifest": "^2.13.3",
+    "parcel": "^2.0.0",
+    "svgo": "^3.3.2"
   },
   "name": "aldreth-static",
   "scripts": {
     "build": "rm -rf .cache dist && parcel build index.html",
     "prettier": "prettier --write '+(css|js)/**/*.+(css|js)'",
     "start": "parcel index.html"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "yarn prettier"
-    }
   },
   "version": "1.0.0"
 }
